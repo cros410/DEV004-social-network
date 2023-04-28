@@ -1,0 +1,157 @@
+#root {
+	max-width: 500px;
+	margin: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.mg-top {
+	margin-top: 10px;
+}
+
+.log-out-section {
+  text-align: right;
+}
+
+.login_header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-height: 400px;
+}
+
+.login_header img {
+	max-height: 400px;
+	margin: auto;
+}
+
+.login_section {
+	padding: 40px;
+}
+
+.login_section_buttons {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* REGISTER */
+
+.register_header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-height: 400px;
+}
+
+.register_header img {
+	max-height: 400px;
+	margin: auto;
+}
+
+.register_section {
+	padding: 0px 40px;
+}
+
+.register_section_buttons {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* HOME */
+
+.home_header {
+	padding: 20px;
+}
+
+.home_header_buttons {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	gap: 5px;
+}
+
+.home_section {
+	padding: 10px 40px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.card_footer_label {
+	margin: 0px !important;
+}
+
+.icon {
+	cursor: pointer;
+}
+
+.card-edit {
+	text-align: right;
+}
+
+.text-area {
+	width: 100%;
+	max-width: 100%;
+	min-height: 50px;
+	padding: 10px 5px 10px 5px;
+	border-radius: 5px;
+	resize: vertical;
+}
+
+.disable-text-area {
+	border: none;
+	pointer-events: none;
+	resize: none;
+}
+
+.hiden {
+	display: none;
+}
+
+.footer-text {
+  font-size: 11px;
+}
+
+/* GOOGLE LOGIN */
+
+.google_button {
+	width: 80%;
+	margin: auto;
+	height: 42px;
+	background-color: #4285f4;
+	border-radius: 2px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+  margin-bottom: 20px;
+}
+.google_button_icon_wrapper {
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 1px;
+	width: 40px;
+	height: 40px;
+	border-radius: 2px;
+	background-color: #fff;
+}
+.google_button_icon {
+	position: absolute;
+	margin-top: 11px;
+	margin-left: 11px;
+	width: 18px;
+	height: 18px;
+}
+.google_button_tex {
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	text-align: center;
+  padding-top: 11px;
+}
