@@ -8,7 +8,7 @@ export const Register = (navigate) => {
     const header = document.createElement('header');
     header.classList.add('register_header');
     header.innerHTML = `
-      <img src="../assets/register.jpg" />
+      <img src="https://firebasestorage.googleapis.com/v0/b/social-network-533b1.appspot.com/o/register.jpg?alt=media&token=efc1a438-4567-43dc-94c5-43a295008e10" />
     `;
     node.append(header);
   };

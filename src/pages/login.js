@@ -10,7 +10,7 @@ export const Login = (navigate) => {
     const header = document.createElement('header');
     header.classList.add('login_header');
     header.innerHTML = `
-      <img src="../assets/trippy-tips.png" />
+      <img src="https://firebasestorage.googleapis.com/v0/b/social-network-533b1.appspot.com/o/trippy-tips.png?alt=media&token=b3ad0ed9-cb65-4e7d-884d-c44f62fbead2" />
     `;
 
     node.append(header);
